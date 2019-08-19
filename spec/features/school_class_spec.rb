@@ -8,7 +8,7 @@ describe 'form page' do
   end
 
   it 'new form submits content and renders form content' do
-    visit new_school_class_path
+    visit new_school_class_path 
 
     fill_in 'school_class_title', with: "Software Engineering"
     fill_in 'school_class_room_number', with: 10
